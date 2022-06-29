@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}"> -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: black;
+}
+
+
+</style> -->
+</head>
+
+<title>Make - PiStream</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+
+
+    <iframe
+    src="https://player.twitch.tv/?channel=humbertvon_gikkingen&parent=localhost" 
+        height="378" width="620"
+    allowfullscreen>
+</iframe>
+
+<!-- Add a placeholder for the Twitch embed -->
+<!-- <div id="twitch-embed"></div> -->
+
+<!-- Load the Twitch embed script -->
+<!-- <script src="https://player.twitch.tv/js/embed/v1.js"></script> -->
+
+<!-- Create a Twitch.Player object. This will render within the placeholder div -->
+<!-- <script type="text/javascript">
+  new Twitch.Player("twitch-embed", {
+    channel: "humbertvon_gikkingen"
+  });
+</script> -->
+
+<!-- <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+<div id="<player div ID>"></div>
+<script type="text/javascript">
+  var options = {
+    width: "378",
+    height: "378",
+    channel: "https://www.twitch.tv/humbertvon_gikkingen",
+    // video: "<video ID>",
+    // collection: "<collection ID>",
+    // only needed if your site is also embedded on embed.example.com and othersite.example.com
+    parent: ["http://localhost:5000/"]
+  };
+  var player = new Twitch.Player("humbertvon_gikkingen", options);
+  player.setVolume(0.5);
+</script> -->
+
+
+</body>
+</html>
